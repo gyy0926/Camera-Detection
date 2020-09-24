@@ -1,0 +1,70 @@
+% Encoding: UTF-8
+
+@InProceedings{DetecDr,
+  author    = {B. {Nassi} and R. {Ben-Netanel} and A. {Shamir} and Y. {Elovici}},
+  booktitle = {2019 IEEE Symposium on Security and Privacy (SP)},
+  title     = {Drones' Cryptanalysis - Smashing Cryptography with a Flicker},
+  year      = {2019},
+  pages     = {1397--1414},
+}
+
+@Article{TW-See,
+  author   = {X. {Wu} and Z. {Chu} and P. {Yang} and C. {Xiang} and X. {Zheng} and W. {Huang}},
+  journal  = {IEEE Transactions on Vehicular Technology},
+  title    = {TW-See: Human Activity Recognition Through the Wall With Commodity Wi-Fi Devices},
+  year     = {2019},
+  number   = {1},
+  pages    = {306--319},
+  volume   = {68},
+  abstract = {Device-free passive human activity recognition plays an important role in many applications, such as smart homes, identification, health care, etc. However, existing human activity recognition systems either require a dedicated device or do not meet the scenarios of the signals through the wall. To address this challenge, we present TW-See, a device-free passive human activity recognition system with Wi-Fi signals, which does not require any dedicated device and meets the scenarios of the signals through the wall. TW-See mainly exploits two key techniques to recognize different human activities. First, we propose an opposite robust PCA (Or-PCA) approach to obtain the correlation between human activity and its resulting changes in channel state information values that can eliminate the influence of the background environment on correlation extraction. Second, we propose a normalized variance sliding windows algorithm to segment the human action time from the Or-PCA waveforms, which can distinguish the true or false of the start and end times of human actions. Furthermore, we implemented TW-See with commodity Wi-Fi devices and evaluated it in several different environments. Experimental results show that TW-See achieves an average accuracy of 0.9446 when the signals pass through the concrete wall.},
+  doi      = {10.1109/TVT.2018.2878754},
+  url      = {https://ieeexplore.ieee.org/document/8515041},
+}
+
+@InProceedings{DeWiCam,
+  author     = {Cheng, Yushi and Ji, Xiaoyu and Lu, Tianyang and Xu, Wenyuan},
+  booktitle  = {Proceedings of the 2018 on {Asia} {Conference} on {Computer} and {Communications} {Security}},
+  title      = {{DeWiCam}: {Detecting} {Hidden} {Wireless} {Cameras} via {Smartphones}},
+  year       = {2018},
+  address    = {New York, NY, USA},
+  pages      = {1--13},
+  publisher  = {ACM},
+  series     = {{ASIACCS} '18},
+  abstract   = {Wireless cameras are widely deployed in surveillance systems for security guarding. However, the privacy concerns associated with unauthorized videotaping, are drawing an increasing attention recently. Existing detection methods for unauthorized wireless cameras are either limited by their detection accuracy or requiring dedicated devices. In this paper, we propose DeWiCam, a lightweight and effective detection mechanism using smartphones. The basic idea of DeWiCam is to utilize the intrinsic traffic patterns of flows from wireless cameras. Compared with traditional traffic pattern analysis, DeWiCam is more challenging because it cannot access the encrypted information in the data packets. Yet, DeWiCam overcomes the difficulty and can detect nearby wireless cameras reliably. To further identify whether a camera is in an interested room, we propose a human-assisted identification model. We implement DeWiCam on the Android platform and evaluate it with extensive experiments on 20 cameras. The evaluation results show that DeWiCam can detect cameras with an accuracy of 0.99 within 2.7 s.},
+  doi        = {10.1145/3196494.3196509},
+  file       = {:2018 AsiaCCS-DeWiCam：Detecting Hidden Wireless Cameras via Smartphones.pdf:PDF},
+  isbn       = {9781450355766},
+  keywords   = {hidden camera detection, personal privacy, traffic analysis},
+  shorttitle = {{DeWiCam}},
+  url        = {http://doi.acm.org/10.1145/3196494.3196509},
+  urldate    = {2018-11-30TZ},
+}
+
+@InProceedings{HomeSpy,
+  author     = {Cheng, Y. and Ji, X. and Zhou, X. and Xu, W.},
+  booktitle  = {2017 {IEEE} 23rd {International} {Conference} on {Parallel} and {Distributed} {Systems} ({ICPADS})},
+  title      = {{HomeSpy}: {Inferring} {User} {Presence} via {Encrypted} {Traffic} of {Home} {Surveillance} {Camera}},
+  year       = {2017},
+  month      = dec,
+  pages      = {779--782},
+  abstract   = {Wireless cameras are widely deployed in homes and offices for security guarding, and play as an important part of smart home devices. Those security cameras, which are supposed to provide protection services, however, may in turn leak personal privacy that can result in security issues. In this paper, we reveal that attackers are able to eavesdrop the traffic of wireless cameras and analyze whether you are at home or not without entering the house. We propose HomeSpy, an attack tool that infers the house status by inspecting the bitrate variation of the wireless camera traffic. We implement HomeSpy on the Android platform and validate it on 3 cameras. The evaluation results show that HomeSpy can achieve a successful attack rate of 97.2\%.},
+  comment    = {通过mac地址识别是否为摄像头，然后通过CUSUM算法分类，针对动作类别、动作持续时间以及不同摄像头做了准确性判断，但是没有对非人类的活体移动检测做研究},
+  doi        = {10.1109/ICPADS.2017.00106},
+  file       = {:2017 ICPADS-HomeSpy：Inferring User Presence via Encrypted Traffic of Home Surveillance Camera.pdf:PDF},
+  issn       = {1521-9097},
+  keywords   = {cameras, cryptography, data privacy, mobile computing, smart phones, telecommunication traffic, video surveillance, wireless LAN, security guarding, smart home devices, security cameras, protection services, security issues, HomeSpy, wireless camera traffic, encrypted traffic, home surveillance camera, user presence, personal privacy leakage, Android platform, Conferences, Surveillance Camera, User Privacy, Traffic Analysis},
+  shorttitle = {{HomeSpy}},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: fileDirectory:./papers;}
+
+@Comment{jabref-meta: saveActions:enabled;
+all-text-fields[identity]
+date[normalize_date]
+month[normalize_month]
+pages[normalize_page_numbers]
+;}
+
+@Comment{jabref-meta: saveOrderConfig:specified;year;true;author;false;title;false;}
